@@ -14,9 +14,11 @@ typer = {version = "^0.7.0", extras = ["all"]}
 typer-cli = "^0.0.13"
 anyscale = "0.5.163"
 pydantic = "^2.5.2"
+mlflow = "2.9.2"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.3"
+haikunator = "^2.1.0"
 
 [build-system]
 requires = ["poetry-core"]
