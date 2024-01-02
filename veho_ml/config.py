@@ -6,4 +6,8 @@ class Config(BaseModel):
     default_compute_config_id: str = "cpt_94i5t66uzrapvvpkn7liagjlwi"
     default_project_name: str = "veho-sandbox"
 
+    mlflow_server: str = "http://10.0.30.108"
+    mlflow_port: int = 5000
+    mlflow_tracking_uri: str = f"{mlflow_server}:{mlflow_port}"
+
 config = Config()
